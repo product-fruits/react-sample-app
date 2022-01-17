@@ -38,7 +38,7 @@ function App() {
 
         <Outlet />
 
-        <ProductFruits projectCode="UHf8gK434TsyGDjw" language="en" {...userInfo} />
+        <ProductFruits projectCode="UHf8gK434TsyGDjw" language="en" {...userInfo} /> 
       </div>
     </SampleContext.Provider>
   );
