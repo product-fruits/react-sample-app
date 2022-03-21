@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Context from "./routes/context";
 import ToursApi from './routes/tours-api';
+import ClassComponent from './routes/class-component';
 import Index from "./routes/index";
 
 ReactDOM.render(
@@ -18,6 +19,7 @@ ReactDOM.render(
           <Route path="" element={<Index />} />
           <Route path="context" element={<Context />} />
           <Route path="tours-api" element={<ToursApi />} />
+          <Route path="class-component" element={<ClassComponent />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -43,7 +43,8 @@ function App() {
                         }}
                     >
                         <Link to="/context">React Context API test</Link> |{" "}
-                        <Link to="/tours-api">PF Tours API</Link>
+                        <Link to="/tours-api">PF Tours API</Link> |{" "}
+                        <Link to="/class-component">Class Component example</Link>
                     </nav>
                 </header>
 
