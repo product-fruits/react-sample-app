@@ -7150,10 +7150,10 @@ process-nextick-args@~2.0.0:
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
   integrity sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
 
-product-fruits@^1.0.19:
-  version "1.0.19"
-  resolved "https://registry.yarnpkg.com/product-fruits/-/product-fruits-1.0.19.tgz#1c396d20bb615d92c330381f4e7f85c302dd202e"
-  integrity sha512-4jSHV4ppqDyNYvrci3pjUxShmp/AZdkLTP6xI6WbYOBPYbbTxE9bQnnfqTz8hd3wxRCLylRTBZNeLFTW8xH8fw==
+product-fruits@^1.0.21:
+  version "1.0.21"
+  resolved "https://registry.yarnpkg.com/product-fruits/-/product-fruits-1.0.21.tgz#110b934bb9c1bf410e7f6c1820953610ff61a5ef"
+  integrity sha512-Zu7ct8ERSGHx1qOVsVFxsNJROIOy6ukGvmsJ5JjRv+IQerFp/f7RsK9OXO6zf127uJL4LT7WuYpghNV+d+rTSA==
 
 promise@^8.1.0:
   version "8.2.0"
@@ -7323,12 +7323,12 @@ react-is@^18.0.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
-react-product-fruits@^2.0.0-beta.3:
-  version "2.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/react-product-fruits/-/react-product-fruits-2.0.0-beta.3.tgz#bf86bc95994b8048a3324c606bd486378105880a"
-  integrity sha512-3RDY/b+vs/pSF9InFSEkhtJl2DeQ0Uqod4VOsnWRbKYztC6BPFo4yBBOOCit4ZYh+IKAabaFooMAC7BtquL2+g==
+react-product-fruits@^2.0.0-beta.7:
+  version "2.0.0-beta.7"
+  resolved "https://registry.yarnpkg.com/react-product-fruits/-/react-product-fruits-2.0.0-beta.7.tgz#9389859d4820780e1a968d030294f39a5eaf6ca0"
+  integrity sha512-pt42CqAy/JhSWx+aN9fkXwKY3gGyonwmb3Oe8kGscltt6DLMiiReuHNLS1bbD+VnZCd/MT6Tys0a8n4RmgUb/A==
   dependencies:
-    product-fruits "^1.0.19"
+    product-fruits "^1.0.21"
 
 react-refresh@^0.11.0:
   version "0.11.0"

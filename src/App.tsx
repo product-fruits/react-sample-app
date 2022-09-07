@@ -5,14 +5,19 @@ import { Link, Outlet } from 'react-router-dom';
 import { ProductFruits } from 'react-product-fruits';
 
 function App() {
-    // console.log('app');
-    // useEffect(() => {
-    //     console.log('init');
-    //     return () => {
-    //         console.log('destroy');
-    //     }
-    // }, []);
-    const [pf, setPf] = useState(false);
+    // const [pf, setPf] = useState(false);
+
+    const [userInfo, setUserInfo] = useState<any>();
+
+    useEffect(() => {
+        const t = setTimeout(() => {
+            setUserInfo({ username: 'bab' });
+        }, 2000);
+
+        return () => {
+            clearTimeout(t);
+        }
+    }, [])
 
     return (
         <div style={{
@@ -28,10 +33,11 @@ function App() {
                 <Link to="/invoices">Invoices</Link> |{" "}
                 <Link to="/expenses">Expenses</Link>
 
-                <button onClick={() => setPf(v => !v)}>Toggle PF</button>
+                {/* <button onClick={() => setPf(v => !v)}>Toggle PF</button> */}
+                <button onClick={() => setUserInfo({ username: 'ccc' })}>Change username</button>
             </nav>
 
-            {pf && <ProductFruits language='en' user={{ username: 'aa' }} workspaceCode='UHf8gK434TsyGDjw' debug={true} config={{ sda: true }} />}
+            {userInfo && <ProductFruits language='en' user={userInfo} workspaceCode='UHf8gK434TsyGDjw' config={{ disableBannersAutoMargin: true }} />}
 
             <Outlet />
         </div>
